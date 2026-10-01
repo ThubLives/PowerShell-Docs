@@ -40,8 +40,8 @@ switch (<test-expression>) {
 The syntax of a `switch` statement is similar to the following `if` statements:
 
 ```Syntax
-if ("$(<result1-to-be-matched>)") -eq ("$(<test-expression>)") {<action>}
-if ("$(<result2-to-be-matched>)") -eq ("$(<test-expression>)") {<action>}
+if ("$(<result1-to-be-matched>)" -eq "$(<test-expression>)") {<action>}
+if ("$(<result2-to-be-matched>)" -eq "$(<test-expression>)") {<action>}
 ```
 
 Expressions include literal values (strings or numbers), variables, and
